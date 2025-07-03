@@ -24,7 +24,7 @@ class Funciones(QWidget):
 
         pygame.mixer.init()
 
-        self.movie_sostenida = QMovie("static/img/miku_sostenida.gif")
+        self.movie_sostenida = QMovie("") #El gif que hara el movimiento
         self.movie_sostenida.setScaledSize(QSize(350, 350))
 
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint | Qt.Tool)
@@ -39,7 +39,7 @@ class Funciones(QWidget):
         self.label.setMovie(self.movie)
         self.label.setFixedSize(350, 350)
 
-        self.movie_caida = QMovie("static/img/miku_caida.gif")
+        self.movie_caida = QMovie("") # El gif que hara la caida si lo seleccionas y cae.
         self.movie_caida.setScaledSize(QSize(350, 350))
 
         self.volteado = True
