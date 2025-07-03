@@ -73,7 +73,7 @@ class Asistente(QWidget):
             await self.hablar("Hubo un problema con el servicio de reconocimiento.")
 
     async def enviar_a_ia(self, mensaje):
-        token = "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"  # Pon aquí tu token válido
+        token = "Token"  # Pon aquí tu token de Ia pos la API
         headers = {
             "Authorization": f"Bearer {token}",
             "Content-Type": "application/json"
