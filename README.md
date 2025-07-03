@@ -31,5 +31,4 @@ y implementacion con IA.
 
 ```bash
 git clone https://github.com/Gal4h4d/Miku-IA.git
-cd proyecto_django
 ```
