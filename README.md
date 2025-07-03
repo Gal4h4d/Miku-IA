@@ -21,7 +21,7 @@ y implementacion con IA.
   pip install -r requirements.txt
 ```
   
-> [!ADVICE]
+> [!TIP]  
 > Se recomienda instalar todo en un entorno virtual (venv).
 
 
